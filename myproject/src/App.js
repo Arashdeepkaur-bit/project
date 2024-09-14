@@ -9,8 +9,8 @@ function App() {
   
   return (
     <div className="App">
-      <h1>Table of nine:{count}</h1>
-      <button onClick ={multiples}>multiples of 9</button>
+      <h1>multiple of nine:{count}</h1>
+      <button onClick ={multiples}>mutiples</button>
     
     </div>
   );
