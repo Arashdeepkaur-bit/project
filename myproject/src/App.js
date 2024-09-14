@@ -2,15 +2,15 @@ import React,{useState} from 'react';
 import './App.css';
 
 function App() {
-  const[count,setcount]=useState(9);
+  const[multiple,setmultiple]=useState(9);
   const multiples=()=>{
-    setcount(count+9);
+    setcount(multiple+9);
   }
   
   return (
     <div className="App">
-      <h1>multiple of nine:{count}</h1>
-      <button onClick ={multiples}>mutiples</button>
+      <h1>Table of nine:{multiple}</h1>
+      <button onClick ={multiples}>Multiples</button>
     
     </div>
   );
