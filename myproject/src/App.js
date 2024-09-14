@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   const[multiple,setmultiple]=useState(9);
   const multiples=()=>{
-    setcount(multiple+9);
+    setmultiple(multiple+9);
   }
   
   return (
